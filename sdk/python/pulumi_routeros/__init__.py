@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "routeros",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_routeros",
   "classes": {
-   "xyz:index:Random": "Random"
+   "routeros:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "routeros",
+  "token": "pulumi:providers:routeros",
+  "fqn": "pulumi_routeros",
   "class": "Provider"
  }
 ]

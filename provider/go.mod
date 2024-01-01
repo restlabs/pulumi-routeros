@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/provider
+module github.com/restlabs/pulumi-routeros/provider
 
 go 1.21
 
@@ -6,6 +6,8 @@ require (
 	github.com/pulumi/pulumi-go-provider v0.11.1
 	github.com/pulumi/pulumi/sdk/v3 v3.79.0
 )
+
+replace sourcegraph.com/sourcegraph/appdash-data => github.com/sourcegraph/appdash-data v0.0.0-20151005221446-73f23eafcf67
 
 require (
 	dario.cat/mergo v1.0.0 // indirect

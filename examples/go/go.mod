@@ -1,4 +1,4 @@
-module provider-xyz-native
+module provider-routeros-native
 
 go 1.20
 

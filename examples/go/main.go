@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/pulumi/pulumi-xyz/sdk/go/xyz"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
+	xyz "github.com/restlabs/pulumi-routeros/sdk/go/routeros"
 )
 
 func main() {

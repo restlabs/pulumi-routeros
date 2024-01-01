@@ -1,8 +1,8 @@
-name: provider-xyz-native
+name: provider-routeros-native
 runtime: yaml
 plugins:
   providers:
-    - name: xyz
+    - name: routeros
       path: ../../bin
 
 resources:
