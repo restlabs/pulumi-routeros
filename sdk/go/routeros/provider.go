@@ -8,7 +8,7 @@ import (
 	"reflect"
 
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-	"github.com/restlabs/pulumi-routeros/sdk/go/routeros/internal"
+	"internal"
 )
 
 type Provider struct {
